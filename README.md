@@ -1,8 +1,8 @@
 # passphrasegen
-A passphrase generator written in Go
+A passphrase generator written in Go.
 
 ## Usage
-Install with by running `go install`, or build and run by running `go build`.
+Install by running `go install`, or build locally by running `go build`.
 
 Generate a passphrase by running `passphrasegen`.
 
@@ -12,4 +12,6 @@ Optional arguments:
 
 ### Example
 
-`passwordgen -w 5 /usr/share/dict/american-english`
+Generate a passphrase of 5 words using the american english wordlist:
+
+    $ passwordgen -w 5 /usr/share/dict/american-english
