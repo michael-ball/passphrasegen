@@ -14,4 +14,4 @@ Optional arguments:
 
 Generate a passphrase of 5 words using the american english wordlist:
 
-    $ passwordgen -w 5 /usr/share/dict/american-english
+    $ passphrasegen -w 5 /usr/share/dict/american-english
